@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --text-base: #afb6c2;
+    --text-title: #d4ccb6;
+    --background: #191816;
+    --form-background: #24221f;
+    --primary-color: #ffc632;
+}
+
+body {
+    background: url('../images/pixel-game-t1wbphoik25fw7eo.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.box {
+    background: var(--form-background);
+    border-radius: 10px;
+  /*  width: 30%;*/
+}
+ legend {
+    color: var(--text-title);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+ }
+
+.box__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 30px;
+}
+
+.box__subtitle {
+    color: var(--text-base);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.box_user {
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    padding: 12px 24px;
+    width: 334px;
+}
+
+.box_button {
+    color: var(--form-background);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    background: var(--primary-color);
+    border: 2px solid var(--background);
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 12px 24px;
+    width: 200px;
+}
+
+.box_button:hover {
+    cursor: pointer;
+}
