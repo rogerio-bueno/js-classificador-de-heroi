@@ -1,3 +1,5 @@
+<img src=".github/Captura de tela 2023-11-27 192329.png"></a>
+
 # Desafio Classificador de Nível de Herói
 
 Este projeto é resultado da atividade prática proposta no bootcamp Potência Tech iFood - Programação do Zero da DIO (Digital Innovation One). Ao realizar este projeto, adaptei meus conhecimentos em HTML5, CSS3 e JavaScript para enfrentar o desafio proposto, adicionando elementos gráficos.
