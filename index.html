@@ -14,7 +14,7 @@
 
 <body>
     <div class="box">
-        <form class="box__form"  onsubmit="consultarNivel(); return false;">
+        <form class="box__form"  onsubmit=" return false;">
 
             <legend>Consulte o níve do seu Herói</legend>
 
@@ -22,7 +22,7 @@
             <input class="box__user" type="text" id="username" name="username">
             <label class="box__title" for="userxp">XP do Herói:</label>
             <input class="box__user" type="text" id="userxp" name="userxp">
-            <input class="box__button" type="submit" value="Consultar">
+            <input class="box__button" type="submit" value="Consultar" onclick="consultarNivel()">
 
         </form>
     </div>
