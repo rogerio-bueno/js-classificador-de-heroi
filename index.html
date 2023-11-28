@@ -14,18 +14,20 @@
 
 <body>
     <div class="box">
-        <form class="box__form">
+        <form class="box__form"  onsubmit="consultarNivel(); return false;">
 
             <legend>Consulte o níve do seu Herói</legend>
 
-            <label class="box__subtitle" for="username">Nome do Herói:</label>
-            <input class="box_user" type="text" id="username" name="username">
-            <label class="box__subtitle" for="userxp">XP do Herói:</label>
-            <input class="box_user" type="text" id="userxp" name="userxp">
-            <input class="box_button" type="submit" value="Consultar">
+            <label class="box__title" for="username">Nome do Herói:</label>
+            <input class="box__user" type="text" id="username" name="username">
+            <label class="box__title" for="userxp">XP do Herói:</label>
+            <input class="box__user" type="text" id="userxp" name="userxp">
+            <input class="box__button" type="submit" value="Consultar">
 
         </form>
     </div>
+    <div class="box__result" id="result"></div>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

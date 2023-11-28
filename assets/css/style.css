@@ -22,11 +22,25 @@ body {
 
 }
 
-.box {
+.box, .nav__item {
     background: var(--form-background);
     border-radius: 10px;
-  /*  width: 30%;*/
 }
+.box__none {
+    display: none;
+}
+
+.box__result {
+    text-align: center;
+    background: var(--form-background);
+    border-radius: 10px;
+    color: var(--text-title);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    padding: 10px;
+}
+
  legend {
     color: var(--text-title);
     font-size: 2rem;
@@ -42,21 +56,21 @@ body {
     padding: 30px;
 }
 
-.box__subtitle {
+.box__title {
     color: var(--text-base);
     font-size: 1rem;
     font-style: normal;
     font-weight: 500;
 }
 
-.box_user {
+.box__user {
     border: 2px solid var(--primary-color);
     border-radius: 8px;
     padding: 12px 24px;
     width: 334px;
 }
 
-.box_button {
+.box__button {
     color: var(--form-background);
     font-size: 1.5rem;
     font-style: normal;
@@ -69,6 +83,11 @@ body {
     width: 200px;
 }
 
-.box_button:hover {
+.box__button:hover {
     cursor: pointer;
 }
+
+
+
+
+
