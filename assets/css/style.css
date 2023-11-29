@@ -31,6 +31,7 @@ body {
 }
 
 .box__result {
+    display: none;
     text-align: center;
     background: var(--form-background);
     border-radius: 10px;

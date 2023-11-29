@@ -21,6 +21,10 @@ function determinarNivel(xp) {
 }
 
 function consultarNivel() {
+
+    document.getElementById("result").style.display = "inline-block";
+    document.getElementById("form").style.display = "none";
+
     // Obtém os valores dos campos de entrada
     let nomeHeroi = document.getElementById('username').value;
     let xpHeroi = parseInt(document.getElementById('userxp').value);
@@ -37,10 +41,7 @@ function consultarNivel() {
     // Adiciona o herói ao array
     herois.push({ nome: nomeHeroi, xp: xpHeroi });
 
-    // Irá adicionar/remover a classe `box__none`
-    const box = document.querySelector('div');
-    box.classList.toggle('box__none');   
-
+ 
     // Exibe o resultado na tela
     let resultadoDiv = document.getElementById('result');
     resultadoDiv.innerHTML = `O Herói de nome ${nomeHeroi} está no nível de ${nivel}`;
