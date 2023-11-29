@@ -16,6 +16,7 @@
 body {
     background: url('../images/pixel-game-t1wbphoik25fw7eo.jpg') center/cover no-repeat;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -88,7 +89,27 @@ body {
     cursor: pointer;
 }
 
+a {
+    color: var(--form-background);
+    text-decoration: none;
+}
 
+.redes {
+    display: flex;
+    font-size: 24px;
+    gap: 16px;
+    justify-content: center;
+    padding: 24px;
+}
 
+.redes a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
 
-
+.redes a:hover {
+    background: var(--primary-color);
+    border-radius: 50%;
+}
