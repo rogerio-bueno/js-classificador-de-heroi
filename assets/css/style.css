@@ -22,7 +22,7 @@ body {
 
 }
 
-.box, .nav__item {
+.box {
     background: var(--form-background);
     border-radius: 10px;
 }
